@@ -60,6 +60,30 @@
   color: $subTitle;
 }
 
+.contact-detail,
+.contact-detail-email {
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: 400;
+  color: $subTitle;
+  text-decoration: none;
+}
+
+.contact-detail:hover,
+.contact-detail-email:hover {
+  color: $textColor;
+  text-shadow: 2px 1px 2px $contactDetailHoverTS;
+  transition: all 0.3s;
+}
+
+/* Media Query */
+@media (max-width: 1380px), (max-width: 768px) {
+  .contact-detail,
+  .contact-detail-email {
+    font-size: 20px;
+  }
+}
+
 @media (max-width: 768px) {
   .row {
     display: flex;
