@@ -54,7 +54,7 @@ export default function Contact() {
           </div>
           <div className="contact-image-div">
             <img
-              src={require("../../assets/images/profile.jpg")}
+              src={require("../../assets/images/profile.webp")}
               alt="profile"
               className="profile-image"
             />
