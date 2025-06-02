@@ -9,7 +9,7 @@ export default function Contact() {
   const {isDark} = useContext(StyleContext);
   return (
     <Fade bottom duration={1000} distance="20px">
-      <div className="main contact-margin-top" id="contact">
+      <div className="main contact-mar n-top" id="contact">
         <div className="contact-div-main">
           <div className="contact-header">
             <h1 className="heading contact-title">{contactInfo.title}</h1>
@@ -52,7 +52,7 @@ export default function Contact() {
               <SocialMedia />
             </div>
           </div>
-          <div className="image-content-profile">
+          <div className="contact-image-div">
             <img
               src={require("../../assets/images/profile.jpg")}
               alt="profile"

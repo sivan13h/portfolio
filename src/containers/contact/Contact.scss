@@ -45,6 +45,16 @@
   margin-top: 4rem;
 }
 
+.contact-image-div {
+  text-align: right;
+  flex: 20%;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  order: 1;
+}
+
 .contact-image-div > img {
   max-width: 100%;
   height: auto;
@@ -79,9 +89,5 @@
   .contact-detail,
   .contact-detail-email {
     font-size: 20px;
-  }
-
-  .contact-image-div {
-    display: none;
   }
 }
