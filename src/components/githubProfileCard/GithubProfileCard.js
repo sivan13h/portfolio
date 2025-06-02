@@ -1,15 +1,14 @@
-import React from "react";
 import "./GithubProfileCard.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import {contactInfo, isHireable} from "../../portfolio";
+import {contactInfo} from "../../portfolio";
 import {Fade} from "react-reveal";
 
-export default function GithubProfileCard({prof}) {
-  if (isHireable) {
-    prof.hireable = "Yes";
-  } else {
-    prof.hireable = "No";
-  }
+export default function GithubProfileCard() {
+  // if (isHireable) {
+  //   prof.hireable = "Yes";
+  // } else {
+  //   prof.hireable = "No";
+  // }
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="contact">
@@ -55,7 +54,7 @@ export default function GithubProfileCard({prof}) {
           <div className="image-content-profile">
             <img
               src={require("../../assets/images/profile.webp")}
-              alt={prof.name}
+              alt="Sivan Hart"
               className="profile-image"
             />
           </div>
