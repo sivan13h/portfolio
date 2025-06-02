@@ -9,6 +9,8 @@
   height: auto;
   box-shadow: $lightBoxShadow 0 30px 30px -30px;
   transition: all 0.3s ease-out;
+  aspect-ratio: 1/1;
+  object-fit: cover;
 }
 
 .profile-image:hover {

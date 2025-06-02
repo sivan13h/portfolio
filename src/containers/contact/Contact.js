@@ -44,6 +44,8 @@ export default function Contact() {
               <a
                 className="contact-detail-email"
                 href={"mailto:" + contactInfo.email_address}
+                target="_blank"
+                rel="noreferrer"
               >
                 {contactInfo.email_address}
               </a>
@@ -52,15 +54,12 @@ export default function Contact() {
               <SocialMedia />
             </div>
           </div>
-          <div className="contact-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={email} />
-            ) : (
-              <img
-                alt="Man working"
-                src={require("../../assets/images/contactMailDark.svg")}
-              ></img>
-            )}
+          <div className="image-content-profile">
+            <img
+              src={require("../../assets/images/profile.jpg")}
+              alt="profile"
+              className="profile-image"
+            />
           </div>
         </div>
       </div>

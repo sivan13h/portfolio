@@ -20,26 +20,22 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Sivan Hart",
+  title: "Hi all, I'm Sivan",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A dedicated Frontend Developer 🚀 with experience building dynamic platforms and web applications using React.js, Svelte, TYPO3, Laravel Blade, TailwindCSS, Alpine.js, and other modern tools and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1iW4tCC_YTo8cgPZzUZ1Ic72GvSL7eH_7/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  linkedin: "https://www.linkedin.com/in/sivan-hart-5a31361a4/",
+  gmail: "sivan13h@gmail.com",
+  facebook: "https://www.facebook.com/sivan.hart/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +45,20 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "DEDICATED FRONTEND DEVELOPER WHO LOVES CREATING SMOOTH, USER-CENTRIC WEB EXPERIENCES",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ I enjoy building clean, responsive interfaces using React, and modern tools like TailwindCSS and Alpine.js"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡  I care about the details — from accessibility to performance — making sure every product feels great to use"
+    ),
+    emoji(
+      "⚡  I’ve worked on platforms and CMS-based websites, integrating APIs and third-party tools to bring ideas to life"
+    ),
+    emoji(
+      "⚡  I'm a fast learner who quickly adapts to new tools, frameworks, and workflows — always eager to grow and stay up to date"
     )
   ],
 
@@ -85,36 +87,33 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "redux",
+      svgIcon:
+        '<svg class="fab" fill="#868e96" viewBox="0 -6 256 256" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" fill="#868e96"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M177.381 169.733c9.447-.978 16.614-9.122 16.288-18.896-.325-9.773-8.47-17.592-18.243-17.592h-.651c-10.1.326-17.918 8.796-17.592 18.895.326 4.887 2.28 9.122 5.212 12.054-11.076 21.828-28.016 37.791-53.426 51.148-17.266 9.122-35.183 12.38-53.1 10.1-14.66-1.955-26.062-8.47-33.23-19.222-10.424-15.963-11.401-33.23-2.605-50.496 6.19-12.38 15.962-21.502 22.152-26.063-1.303-4.235-3.258-11.402-4.235-16.614-47.237 34.207-42.35 80.468-28.016 102.295 10.75 16.29 32.577 26.389 56.684 26.389 6.515 0 13.03-.652 19.546-2.28 41.699-8.145 73.299-32.905 91.216-69.718zm57.336-40.397c-24.759-28.995-61.245-44.958-102.944-44.958h-5.212c-2.932-5.864-9.122-9.774-15.963-9.774h-.652C99.848 74.93 92.03 83.4 92.355 93.5c.326 9.773 8.47 17.592 18.243 17.592h.651c7.167-.326 13.357-4.887 15.963-11.077h5.864c24.759 0 48.214 7.167 69.39 21.176 16.288 10.751 28.016 24.76 34.531 41.7 5.538 13.683 5.212 27.04-.652 38.443-9.121 17.266-24.432 26.714-44.63 26.714-13.031 0-25.41-3.91-31.926-6.842-3.583 3.258-10.099 8.47-14.66 11.729 14.009 6.515 28.343 10.099 42.025 10.099 31.274 0 54.404-17.267 63.2-34.533 9.447-18.896 8.795-51.474-15.637-79.165zM69.225 175.27c.326 9.774 8.47 17.592 18.243 17.592h.652c10.099-.325 17.917-8.796 17.591-18.895-.325-9.774-8.47-17.592-18.243-17.592h-.651c-.652 0-1.63 0-2.28.325-13.357-22.153-18.895-46.26-16.94-72.323 1.302-19.547 7.818-36.488 19.22-50.497 9.447-12.054 27.69-17.918 40.07-18.243 34.531-.652 49.19 42.351 50.168 59.618 4.235.977 11.402 3.258 16.289 4.887C189.434 27.366 156.857 0 125.584 0c-29.32 0-56.359 21.176-67.11 52.451-14.985 41.7-5.212 81.771 13.031 113.372-1.628 2.28-2.606 5.864-2.28 9.448z"></path></g></svg>'
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "svelte",
+      svgIcon:
+        '<svg class="fab" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M13.2829 1.94409C14.2083 3.42511 14.046 5.27647 13.0128 6.56576C13.8628 8.37306 13.2462 10.5713 11.5104 11.656L7.27012 14.3056C5.39667 15.4763 2.92892 14.9066 1.75825 13.0331C0.832798 11.5521 0.99519 9.70071 2.02833 8.41145C1.17829 6.60415 1.79488 4.40587 3.53076 3.32117L7.771 0.671576C9.64446 -0.499089 12.1122 0.070635 13.2829 1.94409ZM8.30092 1.51962C9.70601 0.641625 11.5568 1.06892 12.4348 2.47401C13.0645 3.48168 13.023 4.71945 12.4301 5.66263C11.8046 4.92992 10.9523 4.46839 10.0447 4.31762L10.7691 3.86494L10.2392 3.0169L5.15088 6.19641L5.6808 7.04446L7.80091 5.71967C9.206 4.84167 11.0568 5.26899 11.9348 6.67408C12.8128 8.07918 12.3855 9.92999 10.9804 10.808L6.7402 13.4576C5.33511 14.3356 3.4843 13.9083 2.6063 12.5032C1.97665 11.4955 2.01814 10.2578 2.61103 9.31458C3.23653 10.0473 4.08885 10.5088 4.99651 10.6596L4.27222 11.1122L4.80214 11.9602L9.89043 8.78071L9.36051 7.93267L7.24023 9.25756C5.83514 10.1356 3.98429 9.70821 3.10629 8.30312C2.2283 6.89803 2.65559 5.04722 4.06068 4.16922L8.30092 1.51962Z" fill="#868e96"></path> </g></svg>'
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "wordpress",
+      fontAwesomeClassname: "fab fa-wordpress"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "typo3",
+      svgIcon:
+        '<svg class="fab" fill="#868e96" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M24.104 22.052c-0.474 0.141-0.849 0.193-1.349 0.193-4.063 0-10.031-14.203-10.031-18.932 0-1.74 0.417-2.318 0.995-2.818-4.974 0.583-10.943 2.406-12.849 4.729-0.417 0.578-0.667 1.49-0.667 2.651 0 7.38 7.875 24.125 13.432 24.125 2.573 0 6.906-4.224 10.469-9.948zM21.51 0c5.141 0 10.286 0.828 10.286 3.729 0 5.891-3.734 13.021-5.641 13.021-3.401 0-7.625-9.453-7.625-14.177 0-2.161 0.828-2.573 2.979-2.573z"></path> </g></svg>'
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "tailwindcss",
+      svgIcon:
+        '<svg class="fab" fill="#868e96" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><title>Tailwind CSS icon</title><path d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z"></path></g></svg>'
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "alpinejs",
+      svgIcon:
+        '<svg class="fab" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path fill="#868e96" fill-rule="evenodd" d="M98.444 35.562 126 62.997 98.444 90.432 70.889 62.997z" clip-rule="evenodd"/><path fill="#868e96" fill-rule="evenodd" d="m29.556 35.562 57.126 56.876H31.571L2 62.997z" clip-rule="evenodd"/></svg>'
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -123,7 +122,7 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
   schools: [
     {
       schoolName: "Harvard University",
@@ -174,29 +173,18 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      role: "Frontend Developer",
+      company: "Mogic",
+      companylogo: require("./assets/images/mogic.png"),
+      date: "July 2021 – May 2024",
+      desc: "Mogic is a digital agency that delivers end-to-end solutions for clients across various industries. I was responsible for developing and implementing frontend features for multiple projects, ensuring responsive, user-friendly interfaces tailored to each client's needs."
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Digital Marketing Consultant",
+      company: "Concentrix",
+      companylogo: require("./assets/images/concentrix.webp"),
+      date: "April 2021 – July 2021",
+      desc: "worked as a digital marketing advisor, supporting business marketing managers in optimizing their online strategies. I provided guidance on tools, best practices, and campaign performance to help improve their digital presence and achieve their marketing goals."
     }
   ]
 };
@@ -205,15 +193,61 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: true, // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
+};
+
+// Projects you participated in in previous jobs
+const participatedProjects = {
+  title: "Public Projects",
+  subtitle: "PLATFORMS I'VE BEEN PROUD TO HELP DEVELOP",
+  projects: [
+    {
+      image: require("./assets/images/lde.webp"),
+      projectName: "L.de",
+      projectDesc:
+        "Official Leipzig city website for services, traffic, and news.",
+      technologies: ["TYPO3", "TailwindCSS", "AlpineJS", "JS", "HTML", "SCSS"],
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://l.de/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/immobilie1.webp"),
+      projectName: "Immobilie1",
+      projectDesc:
+        "Real estate website for buying and renting property in Germany.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://immobilie1.de/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/ybpn.webp"),
+      projectName: "YBPN",
+      projectDesc:
+        "Beauty and cosmetics website for products, tips, and trends.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://ybpn.de/"
+        }
+      ]
+    }
+  ]
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "My Projects",
+  subtitle: "PERSONAL PROJECTS I WORKED ON TO DEVELOP MY SKILLS",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
@@ -300,7 +334,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -324,7 +358,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +377,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +390,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -365,22 +399,21 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Have a project in mind or think I’d be a great fit for your team? Let’s talk. I’d love to hear from you.",
+  email_address: "sivan13h@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
@@ -395,6 +428,7 @@ export {
   techStack,
   workExperiences,
   openSource,
+  participatedProjects,
   bigProjects,
   achievementSection,
   blogSection,

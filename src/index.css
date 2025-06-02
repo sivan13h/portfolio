@@ -7,6 +7,12 @@
   font-display: swap;
 }
 @font-face {
+  font-family: "Yellowtail";
+  src: local("Yellowtail"),
+    url("./assets/fonts/Yellowtail-Regular.ttf") format("woff");
+  font-display: swap;
+}
+@font-face {
   font-family: "Montserrat";
   src: local("Montserrat"),
     url("./assets/fonts/Montserrat-Regular.ttf") format("woff");
