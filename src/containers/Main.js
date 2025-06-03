@@ -23,7 +23,7 @@ const Main = () => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
   const [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches);
   const [isShowingSplashAnimation, setIsShowingSplashAnimation] =
-    useState(true);
+    useState(false);
 
   useEffect(() => {
     if (splashScreen.enabled) {
