@@ -299,7 +299,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://worldwise-travel-tracking.netlify.app/app/cities"
+          url: "https://worldwise-travel-tracking.netlify.app/"
         },
         {
           name: "GitHub",
