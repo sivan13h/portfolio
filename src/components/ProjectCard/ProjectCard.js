@@ -25,6 +25,11 @@ function ProjectCard({project, isDark}) {
         <p className={isDark ? "dark-mode card-subtitle" : "card-subtitle"}>
           {project.projectDesc}
         </p>
+        <div className="tech-container">
+          {project.techs?.map(tech => (
+            <span className="tech-item">{tech}</span>
+          ))}
+        </div>
         {project.footerLink ? (
           <div className="project-card-footer">
             {project.footerLink.map((link, i) => {

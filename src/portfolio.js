@@ -46,7 +46,7 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "DEDICATED FRONTEND DEVELOPER WHO LOVES CREATING SMOOTH, USER-CENTRIC WEB EXPERIENCES",
+    "DEDICATED FRONTEND DEVELOPER WHO LOVES CREATING SMOOTH, USER-CENTRIC, PERFORMANCE OPTIMIZED WEB EXPERIENCES",
   skills: [
     emoji(
       "⚡ I enjoy building clean, responsive interfaces using React, and modern tools like TailwindCSS and Alpine.js"
@@ -247,28 +247,63 @@ const participatedProjects = {
 
 const bigProjects = {
   title: "My Projects",
-  subtitle: "PERSONAL PROJECTS I WORKED ON TO DEVELOP MY SKILLS",
+  subtitle: "PERSONAL PROJECTS I CREATED TO DEVELOP MY SKILLS",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/logo-light.png"),
+      projectName: "The Wild Oasis",
+      projectDesc:
+        "An accommodation managing app including - Employees login, stats representation, check-in and out, view sort and filter bookings, hotel cabins, and more.",
+      techs: [
+        "ReactJS",
+        "React Query",
+        "Styled Components",
+        "React-Router",
+        "Supabase"
+      ],
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://misty-mountain-retreat.netlify.app/dashboard"
+        },
+        {
+          name: "GitHub",
+          url: "https://github.com/sivan13h/misty-mountain-retreat"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/pizza.png"),
+      projectName: "Fast React Pizza Co.",
+      projectDesc:
+        "Pizza ordering app - full order process including pizza menu coming from an api, cart and order summary. Orders are stored in the api for possible adjustments.",
+      techs: ["ReactJS", "Redux", "Tailwind", "React-Router"],
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://fast-react-pizza-app-sivan.netlify.app/"
+        },
+        {
+          name: "GitHub",
+          url: "https://github.com/sivan13h/fast-react-pizza"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/worldwise.png"),
+      projectName: "Worldwise",
+      projectDesc:
+        "World travelers app - document the places you visited around the world. (fake login - keep the prefilled data)",
+      techs: ["ReactJS", "Vite", "Context API", "React-Router", "Json-server"],
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://worldwise-travel-tracking.netlify.app/app/cities"
+        },
+        {
+          name: "GitHub",
+          url: "https://github.com/sivan13h/worldwise"
         }
       ]
     }
