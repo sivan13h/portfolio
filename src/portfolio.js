@@ -264,7 +264,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://misty-mountain-retreat.netlify.app/dashboard"
+          url: "https://the-wild-oasis-homes.netlify.app/"
         },
         {
           name: "GitHub",
