@@ -53,7 +53,7 @@ export default function GithubProfileCard() {
           </div>
           <div className="image-content-profile">
             <img
-              src={require("../../assets/images/profile.webp")}
+              src={require("../../assets/images/profile.jpeg")}
               alt="Sivan Hart"
               className="profile-image"
             />
