@@ -85,7 +85,7 @@
 }
 
 .project-card-footer a.project-tag {
-  background: $lightBackground3;
+  // background: $lightBackground3;
   color: $buttonColor;
   border: 1px solid $buttonColor;
   vertical-align: middle;
@@ -106,4 +106,6 @@
 
 .project-card-footer a.project-tag:hover {
   transform: translateY(-2px);
+  background-color: $buttonColor;
+  color: white;
 }

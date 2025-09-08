@@ -25,16 +25,14 @@
 
 .software-skill-inline > i:hover,
 .software-skill-inline > span:hover svg,
-.software-skill-inline > span:hover path {
-  color: $skillsColor;
-  fill: $skillsColor;
+.software-skill-inline > span:hover path,
+.software-skill-inline > i:hover ~ p,
+.software-skill-inline > span:hover ~ p {
+  color: $buttonColor;
+  fill: $buttonColor;
+  transition: color 0.3s ease-out, fill 0.3s ease-out;
 }
 .software-skill-inline > p {
   color: $subTitle;
   font-size: 10px;
-}
-.software-skill-inline > i:hover ~ p,
-.software-skill-inline > span:hover ~ p {
-  color: $skillsColor;
-  fill: $skillsColor;
 }

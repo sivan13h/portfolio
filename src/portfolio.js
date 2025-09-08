@@ -26,7 +26,7 @@ const greeting = {
     "A dedicated Frontend Developer 🚀 with experience building dynamic platforms and web applications using React.js, Svelte, TYPO3, Laravel Blade, TailwindCSS, Alpine.js, and other modern tools and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1-1CYV4EbgN5A0NWnsiBU-lD8vgRJAuS9/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1-M2RqfBz_JiSiJVHDUEGqir4wgF91ZKv/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -44,8 +44,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle:
-    "DEDICATED FRONTEND DEVELOPER WHO LOVES CREATING SMOOTH, USER-CENTRIC, PERFORMANCE OPTIMIZED WEB EXPERIENCES",
+
   skills: [
     emoji("⚡ I enjoy building clean, responsive UIs."),
     emoji(
@@ -177,14 +176,14 @@ const workExperiences = {
       company: "Mogic",
       companylogo: require("./assets/images/mogic.png"),
       date: "July 2021 – May 2024",
-      desc: "Mogic is a digital agency that delivers end-to-end solutions for clients across various industries. I was responsible for developing and implementing frontend features for multiple projects, ensuring responsive, user-friendly interfaces tailored to each client's needs."
+      desc: "Mogic is a digital agency that delivers end-to-end solutions for clients across various industries. I was responsible for developing and implementing the frontend for multiple projects, ensuring responsive, user-friendly interfaces tailored to each client's needs."
     },
     {
       role: "Digital Marketing Consultant",
       company: "Concentrix",
       companylogo: require("./assets/images/concentrix.webp"),
       date: "April 2021 – July 2021",
-      desc: "worked as a digital marketing advisor, supporting business marketing managers in optimizing their online strategies. I provided guidance on tools, best practices, and campaign performance to help improve their digital presence and achieve their marketing goals."
+      desc: "I worked as a digital marketing advisor, supporting business marketing managers in optimizing their online strategies. I provided guidance on tools, best practices, and campaign performance to help improve their digital presence and achieve their marketing goals."
     }
   ]
 };
@@ -204,7 +203,6 @@ const participatedProjects = {
   projects: [
     {
       image: require("./assets/images/lde.webp"),
-      projectName: "L.de",
       projectDesc:
         "Official Leipzig city website for services, traffic, and news.",
       technologies: ["TYPO3", "TailwindCSS", "AlpineJS", "JS", "HTML", "SCSS"],
@@ -218,7 +216,6 @@ const participatedProjects = {
     },
     {
       image: require("./assets/images/immobilie1.webp"),
-      projectName: "Immobilie1",
       projectDesc:
         "Real estate website for buying and renting property in Germany.",
       footerLink: [
@@ -230,7 +227,6 @@ const participatedProjects = {
     },
     {
       image: require("./assets/images/ybpn.webp"),
-      projectName: "YBPN",
       projectDesc:
         "Beauty and cosmetics website for products, tips, and trends.",
       footerLink: [
@@ -251,9 +247,8 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/logo-light.png"),
-      projectName: "The Wild Oasis (Desktop only!)",
       projectDesc:
-        "An accommodation managing desktop app including - Employees login, stats representation, check-in and out, view sort and filter bookings, hotel cabins, and more.",
+        "An accommodation managing desktop app including - Employees login, stats representation, check-in and out, view sort and filter bookings, hotel cabins, and more. (Optimized for Desktop)",
       techs: [
         "ReactJS",
         "React Query",
@@ -275,7 +270,6 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/pizza.png"),
-      projectName: "Fast React Pizza Co.",
       projectDesc:
         "Pizza ordering app - full order process including pizza menu coming from an api, cart and order summary. Orders are stored in the api for possible adjustments.",
       techs: ["ReactJS", "Redux", "Tailwind", "React-Router"],
@@ -292,9 +286,8 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/worldwise.png"),
-      projectName: "Worldwise",
       projectDesc:
-        "World travelers app - document the places you visited around the world. (fake login - keep the prefilled data)",
+        "World travelers app - document the places you visited around the world. (Optimized for Desktop, fake login - keep the prefilled data)",
       techs: ["ReactJS", "Vite", "Context API", "React-Router", "Json-server"],
       footerLink: [
         {
@@ -440,7 +433,7 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Have a project in mind or think I’d be a great fit for your team? Let’s talk. I’d love to hear from you.",
+    "Have a project in mind or think I’d be a great fit for your team? Let’s talk! I’d love to hear from you.",
   email_address: "sivan13h@gmail.com"
 };
 

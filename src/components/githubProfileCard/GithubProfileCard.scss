@@ -2,7 +2,7 @@
 
 .profile-image {
   border-radius: 50%;
-  border: 0.5rem solid $githubProfileCardBorder;
+  border: 0.5rem solid $buttonColor;
   margin-left: auto;
   width: 100%;
   max-width: 350px;
@@ -65,14 +65,13 @@
   margin-top: 20px;
   font-size: 40px;
   font-weight: 400;
-  color: $subTitle;
+  color: $buttonColor;
   text-decoration: none;
 }
 
 .contact-detail:hover,
 .contact-detail-email:hover {
-  color: $textColor;
-  text-shadow: 2px 1px 2px $contactDetailHoverTS;
+  color: $buttonHover;
   transition: all 0.3s;
 }
 
